@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+}
+*{
+	box-sizing: border-box;
+}
+body{
+	 font-family:"Lucida Console", "Courier New", monospace;
+	 padding:10px;
+	 font-size:20px;
+	 margin: 15px 20px;
+	
+}
+.Form{
+	 background-color:#f2f2f2;
+	 padding:15px 20px 10px 20px;
+	 border-radius:10px;
+	 border: 2px solid black;
+	
+}
+input[type="text"],
+input[type="Adress"],
+input[type="Email"],
+input[type="Number"],
+input[type="date"],
+select,
+fieldset,
+textarea{
+	
+	     width:100%;
+		 border: 3px solid #gray;
+		 padding:10px;
+		 border-radius: 20px;
+		 margin: 10px 20px 20px 10px;
+}
+ 
+ fieldset{
+	      background-color:#fff;
+		  border: 3px solid gray;
+	  }
+	 
+.submit{
+		             background-color:pink;
+					 padding:10px;
+					 width:100%;
+					 border:3px solid lightgreen;
+		             border-radius:15px;
+		  
+		  }
+		  
+input[type="submit"]{
+	                 background-color:gray;
+					 color:black;
+					 width:100%;
+					 padding:13px;
+					 border-radius:15px;
+					 border:none;
+					 cursor: pointer;
+					 font-size:40px;
+	
+}
+input[type="submit"]:hover{
+	  background-color:green;
+	  font-size:60px;
+ }
+ .font{
+	 font-family:verdana;
+ }
